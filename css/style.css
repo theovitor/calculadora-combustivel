@@ -1,0 +1,131 @@
+*{
+  margin: 0 auto;
+  font-family: sans-serif;
+  box-sizing: border-box;
+}
+body{
+  background-color: #22272e;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.container{
+  max-width: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0px 14px;
+  
+}
+.logo{
+  max-width: 150px;
+}
+.titulo{
+  text-align: center;
+  color: #ffffff;
+  margin: 20px 0;
+}
+.form label{
+  color: #ffffff;
+  font-size: 18px;
+}
+.input{
+  width: 100%;
+  height: 35px;
+  border-radius: 5px;
+  font-size: 16px;
+  padding: 0 14px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+.bnt{
+  width: 100%;
+  height: 36px;
+  background-color: #119cea;
+  cursor: pointer;
+  border: none;
+  border-radius: 4px;
+  color: #ffffff;
+  font-size: 18px;
+  font-weight: bold;
+}
+.resultado{
+  background-color: #00b63e;
+  max-width: 520px;
+  padding: 10px 28px;
+  text-align: center;
+  margin-top: 28px;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #696969;
+  user-select: none;
+  transition: transform 0.8s;
+}
+.hide{
+  display: none;
+}
+.resultado:hover{
+  transform: scale(1.1);
+}
+.resultado span{
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+.resultado span:nth-child(3){
+  margin-bottom: 3px;
+}
+#texto-resultado{
+  font-size: 20px;
+  font-weight: bold;
+}
+.info{
+  position: fixed;
+  right: 14px;
+  bottom: 22px;
+}
+.info-img{
+  width: 66px;
+  height: 66px;
+}
+.tooltip{
+  color: #ffffff;
+  background-color: rgb(15, 15, 15);
+  padding: 10px 8px;
+  border-radius: 6px;
+  position: relative;
+  bottom: 28px;
+  display: none;
+}
+.info:hover .tooltip{
+  display: inline;
+}
+.sobre{
+  max-width: 600px;
+  background-color: #242424;
+  padding: 20px 10px;
+  border: 1px solid #696969;
+}
+.sobre p{
+  color: #ffffff;
+  margin-bottom: 8px;
+  line-height: 150%;
+  text-align: justify;
+}
+.bnt-calcular{
+  background-color: #119cea;
+  height: 40px;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #ffffff;
+  text-decoration: none;
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 20px;
+  border-radius: 4px;
+}
